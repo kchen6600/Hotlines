@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7414393224A264460075C0E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414393124A264460075C0E6 /* AppDelegate.swift */; };
+		7414393424A264460075C0E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414393324A264460075C0E6 /* SceneDelegate.swift */; };
+		7414393624A264460075C0E6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414393524A264460075C0E6 /* FirstViewController.swift */; };
+		7414393B24A264460075C0E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7414393924A264460075C0E6 /* Main.storyboard */; };
+		7414393E24A264460075C0E6 /* Hotlines.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7414393C24A264460075C0E6 /* Hotlines.xcdatamodeld */; };
+		7414394024A264500075C0E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7414393F24A264500075C0E6 /* Assets.xcassets */; };
+		7414394324A264500075C0E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7414394124A264500075C0E6 /* LaunchScreen.storyboard */; };
+		7414394E24A264500075C0E6 /* HotlinesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414394D24A264500075C0E6 /* HotlinesTests.swift */; };
+		7414395924A264500075C0E6 /* HotlinesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414395824A264500075C0E6 /* HotlinesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7414394A24A264500075C0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7414392624A264450075C0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7414392D24A264450075C0E6;
+			remoteInfo = Hotlines;
+		};
+		7414395524A264500075C0E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7414392624A264450075C0E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7414392D24A264450075C0E6;
+			remoteInfo = Hotlines;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7414392E24A264460075C0E6 /* Hotlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotlines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7414393124A264460075C0E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7414393324A264460075C0E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7414393524A264460075C0E6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		7414393A24A264460075C0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7414393D24A264460075C0E6 /* Hotlines.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hotlines.xcdatamodel; sourceTree = "<group>"; };
+		7414393F24A264500075C0E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7414394224A264500075C0E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7414394424A264500075C0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7414394924A264500075C0E6 /* HotlinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotlinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7414394D24A264500075C0E6 /* HotlinesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotlinesTests.swift; sourceTree = "<group>"; };
+		7414394F24A264500075C0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7414395424A264500075C0E6 /* HotlinesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotlinesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7414395824A264500075C0E6 /* HotlinesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotlinesUITests.swift; sourceTree = "<group>"; };
+		7414395A24A264500075C0E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7414392B24A264450075C0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7414394624A264500075C0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7414395124A264500075C0E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7414392524A264450075C0E6 = {
+			isa = PBXGroup;
+			children = (
+				7414393024A264460075C0E6 /* Hotlines */,
+				7414394C24A264500075C0E6 /* HotlinesTests */,
+				7414395724A264500075C0E6 /* HotlinesUITests */,
+				7414392F24A264460075C0E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7414392F24A264460075C0E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7414392E24A264460075C0E6 /* Hotlines.app */,
+				7414394924A264500075C0E6 /* HotlinesTests.xctest */,
+				7414395424A264500075C0E6 /* HotlinesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7414393024A264460075C0E6 /* Hotlines */ = {
+			isa = PBXGroup;
+			children = (
+				7414393124A264460075C0E6 /* AppDelegate.swift */,
+				7414393324A264460075C0E6 /* SceneDelegate.swift */,
+				7414393524A264460075C0E6 /* FirstViewController.swift */,
+				7414393924A264460075C0E6 /* Main.storyboard */,
+				7414393F24A264500075C0E6 /* Assets.xcassets */,
+				7414394124A264500075C0E6 /* LaunchScreen.storyboard */,
+				7414394424A264500075C0E6 /* Info.plist */,
+				7414393C24A264460075C0E6 /* Hotlines.xcdatamodeld */,
+			);
+			path = Hotlines;
+			sourceTree = "<group>";
+		};
+		7414394C24A264500075C0E6 /* HotlinesTests */ = {
+			isa = PBXGroup;
+			children = (
+				7414394D24A264500075C0E6 /* HotlinesTests.swift */,
+				7414394F24A264500075C0E6 /* Info.plist */,
+			);
+			path = HotlinesTests;
+			sourceTree = "<group>";
+		};
+		7414395724A264500075C0E6 /* HotlinesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7414395824A264500075C0E6 /* HotlinesUITests.swift */,
+				7414395A24A264500075C0E6 /* Info.plist */,
+			);
+			path = HotlinesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7414392D24A264450075C0E6 /* Hotlines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7414395D24A264500075C0E6 /* Build configuration list for PBXNativeTarget "Hotlines" */;
+			buildPhases = (
+				7414392A24A264450075C0E6 /* Sources */,
+				7414392B24A264450075C0E6 /* Frameworks */,
+				7414392C24A264450075C0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hotlines;
+			productName = Hotlines;
+			productReference = 7414392E24A264460075C0E6 /* Hotlines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7414394824A264500075C0E6 /* HotlinesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7414396024A264510075C0E6 /* Build configuration list for PBXNativeTarget "HotlinesTests" */;
+			buildPhases = (
+				7414394524A264500075C0E6 /* Sources */,
+				7414394624A264500075C0E6 /* Frameworks */,
+				7414394724A264500075C0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7414394B24A264500075C0E6 /* PBXTargetDependency */,
+			);
+			name = HotlinesTests;
+			productName = HotlinesTests;
+			productReference = 7414394924A264500075C0E6 /* HotlinesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7414395324A264500075C0E6 /* HotlinesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7414396324A264510075C0E6 /* Build configuration list for PBXNativeTarget "HotlinesUITests" */;
+			buildPhases = (
+				7414395024A264500075C0E6 /* Sources */,
+				7414395124A264500075C0E6 /* Frameworks */,
+				7414395224A264500075C0E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7414395624A264500075C0E6 /* PBXTargetDependency */,
+			);
+			name = HotlinesUITests;
+			productName = HotlinesUITests;
+			productReference = 7414395424A264500075C0E6 /* HotlinesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7414392624A264450075C0E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Karen Chen";
+				TargetAttributes = {
+					7414392D24A264450075C0E6 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					7414394824A264500075C0E6 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 7414392D24A264450075C0E6;
+					};
+					7414395324A264500075C0E6 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 7414392D24A264450075C0E6;
+					};
+				};
+			};
+			buildConfigurationList = 7414392924A264450075C0E6 /* Build configuration list for PBXProject "Hotlines" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7414392524A264450075C0E6;
+			productRefGroup = 7414392F24A264460075C0E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7414392D24A264450075C0E6 /* Hotlines */,
+				7414394824A264500075C0E6 /* HotlinesTests */,
+				7414395324A264500075C0E6 /* HotlinesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7414392C24A264450075C0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7414394324A264500075C0E6 /* LaunchScreen.storyboard in Resources */,
+				7414394024A264500075C0E6 /* Assets.xcassets in Resources */,
+				7414393B24A264460075C0E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7414394724A264500075C0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7414395224A264500075C0E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7414392A24A264450075C0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7414393624A264460075C0E6 /* FirstViewController.swift in Sources */,
+				7414393224A264460075C0E6 /* AppDelegate.swift in Sources */,
+				7414393424A264460075C0E6 /* SceneDelegate.swift in Sources */,
+				7414393E24A264460075C0E6 /* Hotlines.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7414394524A264500075C0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7414394E24A264500075C0E6 /* HotlinesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7414395024A264500075C0E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7414395924A264500075C0E6 /* HotlinesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7414394B24A264500075C0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7414392D24A264450075C0E6 /* Hotlines */;
+			targetProxy = 7414394A24A264500075C0E6 /* PBXContainerItemProxy */;
+		};
+		7414395624A264500075C0E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7414392D24A264450075C0E6 /* Hotlines */;
+			targetProxy = 7414395524A264500075C0E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7414393924A264460075C0E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7414393A24A264460075C0E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7414394124A264500075C0E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7414394224A264500075C0E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7414395B24A264500075C0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7414395C24A264500075C0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7414395E24A264510075C0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDU4P6KU7F;
+				INFOPLIST_FILE = Hotlines/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KarenChen.Hotlines;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7414395F24A264510075C0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDU4P6KU7F;
+				INFOPLIST_FILE = Hotlines/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KarenChen.Hotlines;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7414396124A264510075C0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDU4P6KU7F;
+				INFOPLIST_FILE = HotlinesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KarenChen.HotlinesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotlines.app/Hotlines";
+			};
+			name = Debug;
+		};
+		7414396224A264510075C0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDU4P6KU7F;
+				INFOPLIST_FILE = HotlinesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KarenChen.HotlinesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotlines.app/Hotlines";
+			};
+			name = Release;
+		};
+		7414396424A264510075C0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDU4P6KU7F;
+				INFOPLIST_FILE = HotlinesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KarenChen.HotlinesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hotlines;
+			};
+			name = Debug;
+		};
+		7414396524A264510075C0E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDU4P6KU7F;
+				INFOPLIST_FILE = HotlinesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KarenChen.HotlinesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hotlines;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7414392924A264450075C0E6 /* Build configuration list for PBXProject "Hotlines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7414395B24A264500075C0E6 /* Debug */,
+				7414395C24A264500075C0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7414395D24A264500075C0E6 /* Build configuration list for PBXNativeTarget "Hotlines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7414395E24A264510075C0E6 /* Debug */,
+				7414395F24A264510075C0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7414396024A264510075C0E6 /* Build configuration list for PBXNativeTarget "HotlinesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7414396124A264510075C0E6 /* Debug */,
+				7414396224A264510075C0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7414396324A264510075C0E6 /* Build configuration list for PBXNativeTarget "HotlinesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7414396424A264510075C0E6 /* Debug */,
+				7414396524A264510075C0E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7414393C24A264460075C0E6 /* Hotlines.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7414393D24A264460075C0E6 /* Hotlines.xcdatamodel */,
+			);
+			currentVersion = 7414393D24A264460075C0E6 /* Hotlines.xcdatamodel */;
+			path = Hotlines.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7414392624A264450075C0E6 /* Project object */;
+}
